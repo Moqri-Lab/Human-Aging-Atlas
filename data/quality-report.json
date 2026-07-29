@@ -1,0 +1,377 @@
+{
+  "generatedAt": "2026-07-29T18:30:21+00:00",
+  "fieldCoverage": {
+    "gene": {
+      "annotation": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "connections": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "coverage": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "description": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "descriptionSource": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "entityType": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "evidence": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "evidenceLayers": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "id": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "name": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "provenance": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "summary": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "summarySource": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      },
+      "symbol": {
+        "present": 1000,
+        "total": 1000,
+        "fraction": 1.0
+      }
+    },
+    "cpg": {
+      "agingEvidence": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "chromosome": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "description": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "descriptionSource": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "entityType": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "geneMappings": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "genomeBuild": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "id": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "name": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "position": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "provenance": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "sourceDescriptions": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      },
+      "url": {
+        "present": 1697,
+        "total": 1697,
+        "fraction": 1.0
+      }
+    },
+    "protein": {
+      "description": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "descriptionSource": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "entityType": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "entryName": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "function": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "functionPubmedIds": {
+        "present": 83,
+        "total": 109,
+        "fraction": 0.7615
+      },
+      "geneSymbol": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "id": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "name": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "organAgeEvidence": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "pathways": {
+        "present": 94,
+        "total": 109,
+        "fraction": 0.8624
+      },
+      "provenance": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      },
+      "url": {
+        "present": 109,
+        "total": 109,
+        "fraction": 1.0
+      }
+    },
+    "metabolite": {
+      "agingEvidence": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "averageMass": {
+        "present": 259,
+        "total": 270,
+        "fraction": 0.9593
+      },
+      "charge": {
+        "present": 259,
+        "total": 270,
+        "fraction": 0.9593
+      },
+      "definition": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "description": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "descriptionSource": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "entityType": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "formula": {
+        "present": 259,
+        "total": 270,
+        "fraction": 0.9593
+      },
+      "id": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "monoisotopicMass": {
+        "present": 259,
+        "total": 270,
+        "fraction": 0.9593
+      },
+      "name": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "pathways": {
+        "present": 41,
+        "total": 270,
+        "fraction": 0.1519
+      },
+      "provenance": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      },
+      "synonyms": {
+        "present": 266,
+        "total": 270,
+        "fraction": 0.9852
+      },
+      "url": {
+        "present": 270,
+        "total": 270,
+        "fraction": 1.0
+      }
+    },
+    "pathway": {
+      "description": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "descriptionSource": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "entityType": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "genes": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "id": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "metabolites": {
+        "present": 150,
+        "total": 1467,
+        "fraction": 0.1022
+      },
+      "name": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "proteins": {
+        "present": 249,
+        "total": 1467,
+        "fraction": 0.1697
+      },
+      "provenance": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "recordUrl": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "source": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "species": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      },
+      "url": {
+        "present": 1467,
+        "total": 1467,
+        "fraction": 1.0
+      }
+    }
+  },
+  "sourceDescriptionCoverage": {
+    "gene": {
+      "withDescription": 1000,
+      "total": 1000
+    },
+    "cpg": {
+      "withDescription": 1697,
+      "total": 1697
+    },
+    "protein": {
+      "withDescription": 109,
+      "total": 109
+    },
+    "metabolite": {
+      "withDescription": 270,
+      "total": 270
+    },
+    "pathway": {
+      "withDescription": 1467,
+      "total": 1467
+    }
+  }
+}

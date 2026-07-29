@@ -1,0 +1,9 @@
+{
+  "entityCounts": {
+    "gene": 1000,
+    "cpg": 1697,
+    "protein": 109,
+    "metabolite": 270,
+    "pathway": 1467
+  }
+}

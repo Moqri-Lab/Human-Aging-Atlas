@@ -1,0 +1,141 @@
+{
+  "modules": [
+    {
+      "key": "genomics",
+      "label": "Genomics",
+      "primaryType": "gene",
+      "sources": [
+        "GenAge",
+        "LongevityMap"
+      ],
+      "description": "Curated aging genes and human longevity associations."
+    },
+    {
+      "key": "epigenomics",
+      "label": "Epigenomics",
+      "primaryType": "cpg",
+      "sources": [
+        "cAge",
+        "bAge"
+      ],
+      "description": "Gene-annotated CpG sites associated with age or mortality."
+    },
+    {
+      "key": "transcriptomics",
+      "label": "Transcriptomics",
+      "primaryType": "gene",
+      "sources": [
+        "tAge"
+      ],
+      "description": "Human multi-tissue expression associations with age."
+    },
+    {
+      "key": "proteomics",
+      "label": "Proteomics",
+      "primaryType": "protein",
+      "sources": [
+        "OrganAge",
+        "UniProtKB"
+      ],
+      "description": "Human protein records with OrganAge evidence."
+    },
+    {
+      "key": "metabolomics",
+      "label": "Metabolomics",
+      "primaryType": "metabolite",
+      "sources": [
+        "MetaboAge DB",
+        "ChEBI"
+      ],
+      "description": "MetaboAge metabolites with source identity and directly mapped pathway context."
+    },
+    {
+      "key": "pathways",
+      "label": "Pathways",
+      "primaryType": "pathway",
+      "sources": [
+        "Reactome"
+      ],
+      "description": "Direct human pathway mappings for retained atlas entities."
+    }
+  ],
+  "sources": [
+    {
+      "name": "GenAge",
+      "group": "Aging evidence",
+      "layer": "genomics",
+      "role": "Expert-curated aging genes",
+      "url": "https://genomics.senescence.info/genes/"
+    },
+    {
+      "name": "LongevityMap",
+      "group": "Aging evidence",
+      "layer": "genomics",
+      "role": "Human longevity association reports",
+      "url": "https://genomics.senescence.info/longevity/"
+    },
+    {
+      "name": "cAge and bAge",
+      "group": "Aging evidence",
+      "layer": "epigenomics",
+      "role": "Age- and mortality-associated CpG sites",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13073-023-01161-y/MediaObjects/13073_2023_1161_MOESM4_ESM.xlsx",
+      "publicationUrl": "https://doi.org/10.1186/s13073-023-01161-y"
+    },
+    {
+      "name": "tAge",
+      "group": "Aging evidence",
+      "layer": "transcriptomics",
+      "role": "Human multi-tissue transcriptomic associations",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10542-3/MediaObjects/41586_2026_10542_MOESM4_ESM.xlsx",
+      "publicationUrl": "https://doi.org/10.1038/s41586-026-10542-3"
+    },
+    {
+      "name": "OrganAge",
+      "group": "Aging evidence",
+      "layer": "proteomics",
+      "role": "Organ-specific proteomic age models",
+      "url": "https://github.com/hamiltonoh/organage/tree/59303fd0dccc191be1ff34bf0bbf5efd8b90387a",
+      "publicationUrl": "https://doi.org/10.1038/s41586-023-06802-1"
+    },
+    {
+      "name": "MetaboAge DB",
+      "group": "Aging evidence",
+      "layer": "metabolomics",
+      "role": "Reported age-associated metabolite measurements",
+      "url": "https://www.metaboage.info/static/website/variation-data.xlsx",
+      "publicationUrl": "https://doi.org/10.1007/s10522-020-09892-w"
+    },
+    {
+      "name": "Reactome",
+      "group": "Connected context",
+      "layer": "pathways",
+      "role": "Direct human gene, protein, and metabolite pathway mappings",
+      "url": "https://reactome.org/"
+    },
+    {
+      "name": "NCBI Gene",
+      "group": "Identity and description",
+      "role": "Human gene summaries and identifiers",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/"
+    },
+    {
+      "name": "HGNC",
+      "group": "Identity and description",
+      "role": "Approved human gene identifiers and names",
+      "url": "https://www.genenames.org/"
+    },
+    {
+      "name": "UniProtKB",
+      "group": "Identity and description",
+      "role": "Protein names, functions, and gene mappings",
+      "url": "https://www.uniprot.org/"
+    },
+    {
+      "name": "ChEBI",
+      "group": "Identity and description",
+      "role": "Metabolite names, definitions, and properties",
+      "url": "https://www.ebi.ac.uk/chebi"
+    }
+  ]
+}
