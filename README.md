@@ -1,4 +1,4 @@
-# Human Aging Atlas V3
+# Human Aging Atlas 
 
 Version 3 is a source-traceable static preview of the Human Aging Atlas. It is
 kept separate from earlier project deliverables.
