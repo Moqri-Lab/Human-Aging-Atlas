@@ -121,6 +121,21 @@ MODULES = (
 )
 
 
+def public_source_path(path: Path) -> str:
+    """Return a reproducible source label without exposing a local filesystem."""
+    roots = (
+        (SNAPSHOT_DIR, Path("source_snapshots")),
+        (DOWNLOADS, Path("source-data")),
+        (PUBLIC_ATLAS, Path("upstream-atlas")),
+    )
+    for root, label in roots:
+        try:
+            return str(label / path.relative_to(root))
+        except ValueError:
+            continue
+    return path.name
+
+
 def choose_genes(
     genes: dict[str, dict[str, Any]],
     ranked: list[tuple[str, dict[str, Any]]],
@@ -663,7 +678,7 @@ def build() -> dict[str, Any]:
     manifest = {
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
-        "releaseType": "Reduced source-traceable internal static reference",
+        "releaseType": "Community static reference (V3)",
         "geneSelection": {
             "publishedCount": len(gene_details),
             "priorityPanel": list(PRIORITY_GENE_SYMBOLS),
@@ -676,7 +691,7 @@ def build() -> dict[str, Any]:
         "modules": list(MODULES),
         "entities": manifest_entities,
         "sourceChecksums": [
-            {"path": str(path), "sha256": sha256(path)}
+            {"path": public_source_path(path), "sha256": sha256(path)}
             for path in source_paths
             if path.exists()
         ],

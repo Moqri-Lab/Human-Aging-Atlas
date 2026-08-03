@@ -1,4 +1,4 @@
-name: Deploy Human Aging Atlas V3
+name: Deploy Human Aging Atlas
 
 on:
   push:

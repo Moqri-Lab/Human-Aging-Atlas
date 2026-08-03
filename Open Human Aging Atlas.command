@@ -3,7 +3,7 @@
 set -u
 
 ATLAS_DIR="$(cd "$(dirname "$0")" && pwd)"
-BUILD_MARKER='name="haa-build" content="v3-internal"'
+BUILD_MARKER='name="haa-build" content="community-release"'
 PORT=""
 
 for candidate in 8793 8794 8795; do

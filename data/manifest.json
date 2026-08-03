@@ -1,7 +1,7 @@
 {
   "schemaVersion": 10,
-  "generatedAt": "2026-07-29T18:30:21+00:00",
-  "releaseType": "Reduced source-traceable internal static reference",
+  "generatedAt": "2026-08-03T16:41:34+00:00",
+  "releaseType": "Community static reference (V3)",
   "geneSelection": {
     "publishedCount": 1000,
     "priorityPanel": [
@@ -4857,75 +4857,75 @@
   },
   "sourceChecksums": [
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/aging-evidence-atlas/data/build-report.json",
+      "path": "upstream-atlas/data/build-report.json",
       "sha256": "6717cb82ed1bb7b95a5f2e84d9e20da62b3f2db7dbfb4add97bd1e4a0a646fd4"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/01_GenAge/human_genes/genage_human.csv",
+      "path": "source-data/01_GenAge/human_genes/genage_human.csv",
       "sha256": "3515935b6c4d40cbccf35e129aa52206cc95c1fe2b426adec784c2e41927174d"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/02_LongevityMap/longevity_genes/longevity.csv",
+      "path": "source-data/02_LongevityMap/longevity_genes/longevity.csv",
       "sha256": "1202393b6bc02c63115ef5b39fb7e438ef7252a9dbaf8721e101a2893abf013c"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/03_cAge/13073_2023_1161_MOESM4_ESM.xlsx",
+      "path": "source-data/03_cAge/13073_2023_1161_MOESM4_ESM.xlsx",
       "sha256": "537352f34f98423c9eea7119592fc30d4b0a32ec33cbc956ad748ae2ae5af76f"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/05_tAge/41586_2026_10542_MOESM4_ESM.xlsx",
+      "path": "source-data/05_tAge/41586_2026_10542_MOESM4_ESM.xlsx",
       "sha256": "4509dbcaf5c31cf30df48ad6bb7a83690cc274ab49ec4b1da400c89140bb2bc5"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/aging-evidence-atlas/build/derived/organage_features.csv",
+      "path": "upstream-atlas/build/derived/organage_features.csv",
       "sha256": "4f56f88a1b85cde97504f245c473251efbe89d8b8aa9ddefe62803e61c2c48b2"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/13_MetaboAge/variation-data.xlsx",
+      "path": "source-data/13_MetaboAge/variation-data.xlsx",
       "sha256": "2fb10b8e8a213260f1794484af28d0dba32c21eef9aa2535c5fa750c96428a4f"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/14_ChEBI/compounds.tsv.gz",
+      "path": "source-data/14_ChEBI/compounds.tsv.gz",
       "sha256": "0d1321da2c0ece146eb06efe520bff5e15f159b15ab5d333edac4999677a7657"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/14_ChEBI/names.tsv.gz",
+      "path": "source-data/14_ChEBI/names.tsv.gz",
       "sha256": "a4d4da9c4719dabee7593001a48c941eec8a1e67c2ac716806ff57107541c422"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/14_ChEBI/chemical_data.tsv.gz",
+      "path": "source-data/14_ChEBI/chemical_data.tsv.gz",
       "sha256": "1213bb409aac424c16462f9b5e4358905017d74838820dd4b2aa810470266154"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/16_Reactome/ReactomePathways.txt",
+      "path": "source-data/16_Reactome/ReactomePathways.txt",
       "sha256": "f6d7a2bf89b5bcfe0250a0bc7f51bff94641447911712b8ff129f5b55e52df3a"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/16_Reactome/NCBI2Reactome_PE_Pathway.txt",
+      "path": "source-data/16_Reactome/NCBI2Reactome_PE_Pathway.txt",
       "sha256": "3641eb08b8cc3c8e2b508aed98882b12d2196ea75caa736bee53edf8252d1dcd"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/16_Reactome/UniProt2Reactome_PE_Pathway.txt",
+      "path": "source-data/16_Reactome/UniProt2Reactome_PE_Pathway.txt",
       "sha256": "6dc96e4473c4ccca96246bc99c862c8cba9dc8e5b4d3afed436614eabb576f74"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/16_Reactome/ChEBI2Reactome_PE_Pathway.txt",
+      "path": "source-data/16_Reactome/ChEBI2Reactome_PE_Pathway.txt",
       "sha256": "3e85f9ee678634a3f575e280dfa6df4ecbd00a300ba4182eb6189a718aed7968"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/26_HGNC/hgnc_complete_set.txt",
+      "path": "source-data/26_HGNC/hgnc_complete_set.txt",
       "sha256": "25042e23a296bfa046bf7bc65ee110139cc03a9a55fb7f15ab34b19226cf6417"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/outputs/atlas_dataset_downloads/files/27_UniProt/uniprot_human_9606.tsv.gz",
+      "path": "source-data/27_UniProt/uniprot_human_9606.tsv.gz",
       "sha256": "1882f36675f18c242335efe4258fc23c90604d48f1299691927a0bfa6351a7c1"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/human-aging-atlas-v3-internal/source_snapshots/ncbi_gene_descriptions.json",
+      "path": "source_snapshots/ncbi_gene_descriptions.json",
       "sha256": "9d69d53c26de3748a0067023995b504a30c496bdf9e1afe43ef1361655d3602d"
     },
     {
-      "path": "/Users/ReyZafarnejad/Documents/FAST PROSPR/human-aging-atlas-v3-internal/source_snapshots/reactome_pathways.json",
+      "path": "source_snapshots/reactome_pathways.json",
       "sha256": "6ca44ae2f9a6e1c0f860c3abad776dd2ac6d2795ec11c0ec75a83eb59c5e0407"
     }
   ],
