@@ -1,6 +1,6 @@
 # Human Aging Atlas
 
-[Open the Human Aging Atlas](https://moqri-lab.github.io/Human-Aging-Atlas/)
+[Open the Human Aging Atlas](https://moqri-lab.org/Human-Aging-Atlas/)
 
 The Human Aging Atlas is a source-traceable research resource developed by the
 [Moqri Lab](https://moqri.bwh.harvard.edu/). It brings together human aging and
